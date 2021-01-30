@@ -18,6 +18,7 @@ class DoctorsController < ApplicationController
             redirect_to doctor_path(@doctor)
         else
             render :new
+        end
     end
 
     def edit
