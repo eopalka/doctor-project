@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+
+  root to: 'doctors#welcome'
   resources :patients
   resources :appointments
   resources :doctors
